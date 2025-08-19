@@ -52,10 +52,10 @@ nav {
   font-weight: 700;
   letter-spacing: 0.2px;
 }
-.right-side-buttons {
+.nav-buttons {
   display: flex;
   gap: 45px;
-  list-style: none;
+
   align-items: center;
 }
 .login-link {
@@ -65,7 +65,7 @@ nav {
   font-weight: 700;
   letter-spacing: 0.2px;
 }
-.right-side-buttons button {
+.join-link {
   background-color: var(--quaternary-color);
 
   padding: 15px 25px;
@@ -76,15 +76,14 @@ nav {
   letter-spacing: 0.2px;
   display: flex;
   gap: 15px;
-}
-.right-side-buttons button > a {
   color: var(--primary-color);
   text-decoration: none;
   font-size: var(--xs);
   font-weight: 700;
   letter-spacing: 0.2px;
 }
-.right-side-buttons button > i {
+
+.join-link > i {
   width: 12px;
   height: 10px;
 }
