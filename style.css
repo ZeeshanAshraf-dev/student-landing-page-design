@@ -1,11 +1,11 @@
 /* variables here  */
 :root {
   --xs: 14px;
-  --s: b;
-  --m: c;
+  --s: 16px;
+  --m: 20px;
   --l: 24px;
   --xl: e;
-  --xxl: f;
+  --xxl: 58px;
   --xxxl: g;
   --primary-color: white;
   --secondary-color: #737373;
@@ -26,6 +26,8 @@
 /* header styling  */
 header {
   padding: 0 59px;
+  position: fixed;
+  width: 100%;
 }
 nav {
   display: flex;
@@ -88,3 +90,64 @@ nav {
   height: 10px;
 }
 /* header styling end  */
+/* main section styling */
+/* hero section styling  */
+#hero-section {
+  background-image: url(images/background\ sec-.svg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding-top: 95px;
+  padding-left: 135px;
+  justify-content: center;
+}
+#hero-description {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+#hero-description > h5 {
+  font-size: var(--s);
+  font-weight: 700;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  color: var(--quaternary-color);
+}
+#hero-description > h1 {
+  font-size: var(--xxl);
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+  color: var(--teritiary-color);
+}
+#hero-description > h4 {
+  font-size: var(--m);
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: var(--secondary-color);
+}
+.hero-links {
+  display: flex;
+  gap: 10px;
+}
+.hero-button {
+  text-decoration: none;
+  padding: 15px 40px;
+  border-radius: 5px;
+}
+.quote-link {
+  background-color: var(--quaternary-color);
+  color: var(--primary-color);
+}
+.learn-link {
+  color: var(--quaternary-color);
+  border: 1px solid var(--quaternary-color);
+}
+#hero-image {
+  padding: 42px 76px 0px 7px;
+}
+
+/* hero section styling ends  */
+/* main section styling ends  */
