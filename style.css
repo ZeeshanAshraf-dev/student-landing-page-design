@@ -127,6 +127,7 @@ nav {
   line-height: 30px;
   letter-spacing: 0.2px;
   color: var(--secondary-color);
+  width: 70%;
 }
 .hero-links {
   display: flex;
