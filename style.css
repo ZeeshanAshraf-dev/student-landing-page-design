@@ -4,13 +4,14 @@
   --s: 16px;
   --m: 20px;
   --l: 24px;
-  --xl: e;
+  --xl: 40px;
   --xxl: 58px;
   --xxxl: g;
   --primary-color: white;
   --secondary-color: #737373;
   --teritiary-color: #252b42;
   --quaternary-color: #96bb7c;
+  --quinary-color: #e74040;
 }
 /* variables end  */
 
@@ -151,4 +152,69 @@ nav {
 }
 
 /* hero section styling ends  */
+/* course section styling */
+#course-section {
+  display: flex;
+  flex-direction: column;
+  gap: 112px;
+  padding: 112px 195px;
+}
+#course-description {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#course-description > h6 {
+  font-size: var(--xs);
+  font-weight: 700;
+  line-height: var(--l);
+  letter-spacing: 0.2px;
+  color: var(--quaternary-color);
+}
+#course-description > h2 {
+  font-size: var(--xl);
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: var(--teritiary-color);
+}
+#course-description > p {
+  font-size: var(--xs);
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: var(--secondary-color);
+  display: flex;
+  flex-direction: column;
+}
+#course-cards {
+  display: flex;
+  gap: 30px;
+}
+.course-card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 13px 19px 0 #00000017;
+  padding: 35px 40px;
+  gap: 20px;
+}
+.course-card > h5 {
+  font-size: var(--xs);
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: var(--teritiary-color);
+}
+.dash-line {
+  max-width: 50px;
+  border: 1px solid var(--quinary-color);
+}
+.course-card > p {
+  font-size: var(--xs);
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: var(--secondary-color);
+}
+/* course section styling ends */
 /* main section styling ends  */
