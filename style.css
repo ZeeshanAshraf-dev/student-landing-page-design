@@ -159,6 +159,18 @@ nav {
   gap: 112px;
   padding: 112px 195px;
 }
+.training-card {
+  background-color: var(--quaternary-color);
+}
+.training-card > .dash-line {
+  border: 1px solid var(--primary-color);
+}
+#card-detail {
+  color: var(--primary-color);
+}
+#card-heading {
+  color: var(--primary-color);
+}
 #course-description {
   display: flex;
   flex-direction: column;
@@ -217,4 +229,49 @@ nav {
   color: var(--secondary-color);
 }
 /* course section styling ends */
+/* quality section styling */
+
+#quality-section {
+  display: flex;
+  padding: 160px 195px;
+  justify-content: space-between;
+  align-items: center;
+}
+#quality-description {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  padding: 0 120px 0 147px;
+}
+#quality-description > div {
+  border: 4px solid var(--quinary-color);
+  max-width: 94px;
+}
+#quality-description > h2 {
+  font-size: var(--xl);
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: var(--teritiary-color);
+}
+#quality-description > p {
+  color: var(--secondary-color);
+  font-size: var(--xs);
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+}
+#quality-description > a {
+  text-decoration: none;
+  color: var(--quaternary-color);
+  font-size: var(--xs);
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+.fa-greater-than {
+  transform: scaleX(0.5);
+}
+/* quality section styling ends */
+
 /* main section styling ends  */
