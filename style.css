@@ -1,16 +1,17 @@
 /* variables here  */
 :root {
   --xs: 14px;
-  --s: b;
-  --m: c;
+  --s: 16px;
+  --m: 20px;
   --l: 24px;
-  --xl: e;
-  --xxl: f;
+  --xl: 40px;
+  --xxl: 58px;
   --xxxl: g;
   --primary-color: white;
   --secondary-color: #737373;
   --teritiary-color: #252b42;
   --quaternary-color: #96bb7c;
+  --quinary-color: #e74040;
 }
 /* variables end  */
 
@@ -26,6 +27,8 @@
 /* header styling  */
 header {
   padding: 0 59px;
+  position: fixed;
+  width: 100%;
 }
 nav {
   display: flex;
@@ -88,3 +91,187 @@ nav {
   height: 10px;
 }
 /* header styling end  */
+/* main section styling */
+/* hero section styling  */
+#hero-section {
+  background-image: url(images/background\ sec-.svg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding-top: 95px;
+  padding-left: 135px;
+  justify-content: center;
+}
+#hero-description {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+#hero-description > h5 {
+  font-size: var(--s);
+  font-weight: 700;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  color: var(--quaternary-color);
+}
+#hero-description > h1 {
+  font-size: var(--xxl);
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+  color: var(--teritiary-color);
+}
+#hero-description > h4 {
+  font-size: var(--m);
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: var(--secondary-color);
+  width: 70%;
+}
+.hero-links {
+  display: flex;
+  gap: 10px;
+}
+.hero-button {
+  text-decoration: none;
+  padding: 15px 40px;
+  border-radius: 5px;
+}
+.quote-link {
+  background-color: var(--quaternary-color);
+  color: var(--primary-color);
+}
+.learn-link {
+  color: var(--quaternary-color);
+  border: 1px solid var(--quaternary-color);
+}
+#hero-image {
+  padding: 42px 76px 0px 7px;
+}
+
+/* hero section styling ends  */
+/* course section styling */
+#course-section {
+  display: flex;
+  flex-direction: column;
+  gap: 112px;
+  padding: 112px 195px;
+}
+.training-card {
+  background-color: var(--quaternary-color);
+}
+.training-card > .dash-line {
+  border: 1px solid var(--primary-color);
+}
+#card-detail {
+  color: var(--primary-color);
+}
+#card-heading {
+  color: var(--primary-color);
+}
+#course-description {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#course-description > h6 {
+  font-size: var(--xs);
+  font-weight: 700;
+  line-height: var(--l);
+  letter-spacing: 0.2px;
+  color: var(--quaternary-color);
+}
+#course-description > h2 {
+  font-size: var(--xl);
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: var(--teritiary-color);
+}
+#course-description > p {
+  font-size: var(--xs);
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: var(--secondary-color);
+  display: flex;
+  flex-direction: column;
+}
+#course-cards {
+  display: flex;
+  gap: 30px;
+}
+.course-card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 13px 19px 0 #00000017;
+  padding: 35px 40px;
+  gap: 20px;
+}
+.course-card > h5 {
+  font-size: var(--xs);
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: var(--teritiary-color);
+}
+.dash-line {
+  max-width: 50px;
+  border: 1px solid var(--quinary-color);
+}
+.course-card > p {
+  font-size: var(--xs);
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: var(--secondary-color);
+}
+/* course section styling ends */
+/* quality section styling */
+
+#quality-section {
+  display: flex;
+  padding: 160px 195px;
+  justify-content: space-between;
+  align-items: center;
+}
+#quality-description {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  padding: 0 120px 0 147px;
+}
+#quality-description > div {
+  border: 4px solid var(--quinary-color);
+  max-width: 94px;
+}
+#quality-description > h2 {
+  font-size: var(--xl);
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: var(--teritiary-color);
+}
+#quality-description > p {
+  color: var(--secondary-color);
+  font-size: var(--xs);
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+}
+#quality-description > a {
+  text-decoration: none;
+  color: var(--quaternary-color);
+  font-size: var(--xs);
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+.fa-greater-than {
+  transform: scaleX(0.5);
+}
+/* quality section styling ends */
+
+/* main section styling ends  */
