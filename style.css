@@ -12,11 +12,16 @@
   --teritiary-color: #252b42;
   --quaternary-color: #96bb7c;
   --quinary-color: #e74040;
+  --senary-color: #2d4059;
+  --septenary-color: #ffce31;
+  --octanary-color: #bdbdbd;
+  --nonary-color: #ffab71;
 }
 /* variables end  */
 
 /* universal styling */
 * {
+  scroll-behavior: smooth;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -315,5 +320,159 @@ nav {
 }
 
 /* package section styling ends  */
+/* product section styling */
+#product-section {
+  display: flex;
+  flex-direction: column;
+  gap: 112px;
+  padding: 112px 195px;
+}
+#product-cards {
+  display: flex;
+  gap: 30px;
+}
+.product-card {
+  display: flex;
+  flex-direction: column;
+}
+.card-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 25px 70px 25px 35px;
+}
+.card-type {
+  display: flex;
+  justify-content: space-between;
+}
+#product-description {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.product-image {
+  position: relative;
+}
+
+.product-image > h6 {
+  font-size: var(--xs);
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: var(--primary-color);
+  background-color: var(--quinary-color);
+  padding: 10px;
+  border-radius: 3px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.product-image-icons {
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  padding: 11px 10px;
+}
+.product-image i {
+  color: var(--octanary-color);
+}
+.product-icon-container {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  top: 236px;
+  left: 49px;
+}
+#product-description > h6 {
+  color: var(--quaternary-color);
+  font-size: var(--xs);
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+#product-description > h2 {
+  font-size: var(--xl);
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: var(--teritiary-color);
+}
+#product-description > p {
+  font-size: var(--xs);
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: var(--secondary-color);
+  display: flex;
+  flex-direction: column;
+}
+.course-rating {
+  display: flex;
+  gap: 5px;
+  padding: 5px;
+  border-radius: 20px;
+  background-color: var(--senary-color);
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  line-height: 16px;
+}
+.course-rating > i {
+  color: var(--septenary-color);
+}
+.course-name {
+  font-weight: 700;
+  font-size: var(--xs);
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: var(--quaternary-color);
+}
+.card-details > h5 {
+  font-weight: 700;
+  font-size: var(--s);
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: var(--teritiary-color);
+}
+.card-details > p {
+  font-weight: 400;
+  font-size: var(--xs);
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  color: var(--secondary-color);
+}
+.sales-count > i {
+  color: var(--secondary-color);
+}
+.sales-count > h6 {
+  font-size: var(--xs);
+  font-weight: 700;
+  letter-spacing: 0.2;
+  line-height: 24px;
+  color: var(--secondary-color);
+}
+.course-price {
+  font-size: var(--s);
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: var(--octanary-color);
+}
+.course-price > span {
+  color: var(--nonary-color);
+}
+.card-link {
+  text-decoration: none;
+  font-size: var(--xs);
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+  color: var(--quaternary-color);
+  border: 1px solid var(--quaternary-color);
+  border-radius: 37px;
+  padding: 10px 20px;
+  align-self: flex-start;
+}
+
+/* product section styling ends  */
 
 /* main section styling ends  */
