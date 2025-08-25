@@ -629,4 +629,154 @@ nav {
   font-size: var(--xs);
 }
 /* membership section styling ends  */
+
+/* review-section styling  */
+#review-section {
+  display: flex;
+  flex-direction: column;
+  gap: 96px;
+  padding: 160px 195px;
+}
+#review-description {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#review-description > h6 {
+  color: var(--quaternary-color);
+  font-size: var(--xs);
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+#review-description > h2 {
+  font-size: var(--xl);
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: var(--teritiary-color);
+}
+#review-description > p {
+  font-size: var(--xs);
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: var(--secondary-color);
+  display: flex;
+  flex-direction: column;
+}
+#review-cards {
+  display: flex;
+  gap: 30px;
+}
+.review-card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 45px;
+  align-items: center;
+}
+.reviewer-container {
+  padding-bottom: 15px;
+}
+.review-card img {
+  border-radius: 50%;
+}
+.review-card > p {
+  font-size: var(--xs);
+  font-weight: 400;
+  line-height: 20px;
+  padding: 0 100px;
+  letter-spacing: 0.2px;
+  color: var(--secondary-color);
+  text-align: center;
+}
+.rating-container {
+  display: flex;
+  gap: 5px;
+}
+.rating-container > i {
+  color: #f3cd03;
+}
+.review-card > h5 {
+  font-weight: 700;
+  font-size: var(--s);
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: var(--teritiary-color);
+}
+.review-card > h6 {
+  color: var(--secondary-color);
+  font-size: var(--xs);
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+/* review section styling ends  */
+
+/* contact-section styling */
+#contact-section {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  padding: 160px 195px;
+  background-color: #fff2f3;
+}
+#contact-description {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#contact-description > h6 {
+  color: var(--quaternary-color);
+  font-size: var(--xs);
+  text-align: center;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+#contact-description > h2 {
+  font-size: var(--xl);
+  text-align: center;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: var(--teritiary-color);
+}
+#contact-description > p {
+  font-size: var(--xs);
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: var(--secondary-color);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+#Contact-form {
+  display: flex;
+  justify-content: center;
+}
+#Contact-form > input {
+  font-size: var(--xs);
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: var(--secondary-color);
+  width: 50.5%;
+  padding: 15px 20px;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px 0 0 5px;
+}
+#Contact-form > a {
+  background-color: var(--quaternary-color);
+  padding: 22px;
+  text-decoration: none;
+  color: var(--primary-color);
+  border-radius: 0 5px 5px 0;
+  border: 1px solid #e6e6e6;
+}
+/* contact section styling ends  */
+
 /* main section styling ends  */
