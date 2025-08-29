@@ -1,16 +1,22 @@
 /* variables here  */
 :root {
   --xs: 14px;
-  --s: b;
-  --m: c;
+  --s: 16px;
+  --m: 20px;
   --l: 24px;
-  --xl: e;
-  --xxl: f;
+  --xl: 40px;
+  --xxl: 58px;
   --xxxl: g;
   --primary-color: white;
   --secondary-color: #737373;
   --teritiary-color: #252b42;
   --quaternary-color: #96bb7c;
+  --quinary-color: #e74040;
+  --senary-color: #2d4059;
+  --septenary-color: #ffce31;
+  --octanary-color: #bdbdbd;
+  --nonary-color: #ffab71;
+  --decanary-color: #8ec2f2;
 }
 /* variables end  */
 
@@ -88,3 +94,72 @@ nav {
   height: 10px;
 }
 /* header styling end  */
+/* footer styling */
+.footer-top {
+  display: flex;
+  gap: 30px;
+  padding: 50px 195px;
+}
+.footer-section {
+  padding-right: 55px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+/* Section Titles */
+.footer h5 {
+  font-size: var(--s);
+  font-weight: 700;
+  line-height: var(--l);
+  letter-spacing: 0.1px;
+  color: var(--tertiary-color);
+  margin-bottom: 10px;
+}
+
+/* Links inside footer */
+.footer a {
+  font-size: var(--xs);
+  font-weight: 700;
+  line-height: var(--l);
+  letter-spacing: 0.2px;
+  color: var(--secondary-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: var(--tertiary-color);
+}
+
+/* Contact Section */
+.footer .contact p,
+.footer .contact a {
+  font-size: var(--xs);
+  line-height: var(--l);
+  color: var(--secondary-color);
+}
+
+.footer-bottom {
+  background-color: #fafafa;
+  display: flex;
+  padding: 25px 195px;
+  justify-content: space-between;
+}
+.footer-bottom > h6 {
+  font-size: var(--s);
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: var(--secondary-color);
+}
+
+.socialmedia-icons {
+  padding-right: 8%;
+}
+
+.socialmedia-icons > i {
+  color: var(--quaternary-color);
+}
+.fa-regular {
+  color: var(--quaternary-color);
+}
